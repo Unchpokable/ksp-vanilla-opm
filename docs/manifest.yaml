@@ -1,0 +1,94 @@
+﻿# KSP modpack manifest. Written by ksp-modpack-studio; edit freely.
+# groups hold module identifiers, pins hold exact versions.
+spec: 1
+name: "Vanilla+ OPM"
+ksp: 1.12.5
+dlc:
+  making_history: false
+  breaking_ground: false
+groups:
+  core: [B9PartSwitch, CommunityResourcePack, CommunityTechTree, CommunityTerrainTexturePack, CustomBarnKit, DeployableEngines, DynamicBatteryStorage, EnvironmentalVisualEnhancements, EnvironmentalVisualEnhancements-HR, FireflyAPI, Harmony2, HUDReplacer, Kopernicus, KSPCommunityFixes, KSPTextureLoader, ModularFlightIntegrator, ModuleManager, NearFutureElectrical-DecayingRTGs, NearFutureProps, NearFuturePropulsion-XenonHETs, NearFutureSpacecraft-OrbitalLFOEngines, OuterPlanetsMod, PlanetShine, PlanetShine-Config-Default, ReStock, Scatterer, Scatterer-config, Scatterer-sunflare, SmokeScreen, Waterfall]
+  parts: [CommNetAntennasExtension, HeatControl, KerbalActuators, MarkIVSpaceplaneSystem, NearFutureAeronautics, NearFutureConstruction, NearFutureElectrical, NearFutureElectrical-Core, NearFutureExploration, NearFutureLaunchVehicles, NearFuturePropulsion, NearFutureSolar, NearFutureSolar-Core, NearFutureSpacecraft, RemoteTechRedevAntennas, ReStockPlus, SCANsat, SystemHeat]
+  visual: [AvalanchePlumes, Deferred, Firefly, KSPBurst, KSPBurst-Lite, OuterParallax, OuterParallax-OPM, ParallaxContinued, ParallaxContinued-Planet-Textures, ParallaxContinued-Scatter-Textures, ParallaxContinued-Terrain-Textures, RestockWaterfallExpansion, Shabby, TUFX, VertexHeightOblateAdvanced, VertexMitchellNetravaliHeightMap]
+  qol: [BetterTimeWarpCont, ClickThroughBlocker, CommNetAntennasInfo, DraggableNavball, EasyVesselSwitch, KerbalEngineerRedux, LunaMultiplayer, PreciseNode, ToolbarController, TransferWindowPlanner, ZTheme]
+pins:
+  AvalanchePlumes: v1.0.5.1
+  B9PartSwitch: v2.21.0.4
+  BetterTimeWarpCont: 2.3.14.1
+  ClickThroughBlocker: "1:2.1.10.23"
+  CommNetAntennasExtension: 2.1.9
+  CommNetAntennasInfo: 3.1.4
+  CommunityResourcePack: v112.0.1
+  CommunityTechTree: "1:3.4.5"
+  CommunityTerrainTexturePack: "1:1.0.5"
+  CustomBarnKit: 1.1.22.0
+  Deferred: "1.3.5.0"
+  DeployableEngines: 1.3.1
+  DraggableNavball: v1.0.1.5
+  DynamicBatteryStorage: "2:2.3.7.0"
+  EasyVesselSwitch: "2.3"
+  EnvironmentalVisualEnhancements: "3:1.11.7.2"
+  EnvironmentalVisualEnhancements-HR: "2:EVE-1.2.2-1"
+  Firefly: 1.0.6
+  FireflyAPI: 1.0.0.0
+  Harmony2: 2.2.1.0
+  HeatControl: 0.6.2
+  HUDReplacer: 1.4.2
+  KerbalActuators: v1.9.0
+  KerbalEngineerRedux: 1.1.9.5
+  Kopernicus: "2:release-1.12.1-247"
+  KSPBurst: "v1.7.4.11"
+  KSPBurst-Lite: "v1.7.4.11"
+  KSPCommunityFixes: "1:1.41.1"
+  KSPTextureLoader: 1.0.35
+  LunaMultiplayer: 0.29.2
+  MarkIVSpaceplaneSystem: 3.2.1
+  ModularFlightIntegrator: 1.2.10.0
+  ModuleManager: 4.2.3
+  NearFutureAeronautics: 2.1.2
+  NearFutureConstruction: 1.3.3
+  NearFutureElectrical: 2.0.1
+  NearFutureElectrical-Core: 2.0.1
+  NearFutureElectrical-DecayingRTGs: 2.0.1
+  NearFutureExploration: 1.1.3
+  NearFutureLaunchVehicles: 2.2.2
+  NearFutureProps: "1:0.7.2"
+  NearFuturePropulsion: 1.3.6
+  NearFuturePropulsion-XenonHETs: 1.3.6
+  NearFutureSolar: 1.3.3
+  NearFutureSolar-Core: 1.3.3
+  NearFutureSpacecraft: 1.4.6
+  NearFutureSpacecraft-OrbitalLFOEngines: 1.4.6
+  OuterParallax: "0.7.0"
+  OuterParallax-OPM: "0.7.0"
+  OuterPlanetsMod: "2:2.2.12"
+  ParallaxContinued: "1.0.3"
+  ParallaxContinued-Planet-Textures: "1.0.3"
+  ParallaxContinued-Scatter-Textures: "1.0.3"
+  ParallaxContinued-Terrain-Textures: "1.0.3"
+  PlanetShine: 0.2.6.6
+  PlanetShine-Config-Default: 0.2.6.6
+  PreciseNode: 1.2.12
+  RemoteTechRedevAntennas: 0.1.1
+  ReStock: 1.5.1
+  ReStockPlus: 1.5.1
+  RestockWaterfallExpansion: 3.1.1
+  SCANsat: v21.1
+  Scatterer: "3:v0.0878"
+  Scatterer-config: "3:v0.0878"
+  Scatterer-sunflare: "3:v0.0878"
+  Shabby: "0.4.2"
+  SmokeScreen: 2.8.14.0
+  SystemHeat: 0.9.1
+  ToolbarController: "1:0.1.9.14"
+  TransferWindowPlanner: v1.8.0.0
+  TUFX: "1.1.1"
+  VertexHeightOblateAdvanced: "1.1.4"
+  VertexMitchellNetravaliHeightMap: "0.3"
+  Waterfall: 0.11.0
+  ZTheme: v1.2.2
+manual:
+  - folder: zzz_VanillaOPM_Fixes
+    bytes: 1625
+    files: 1
+    version: null
