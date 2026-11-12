@@ -7,10 +7,10 @@ dlc:
   making_history: false
   breaking_ground: false
 groups:
-  core: [B9PartSwitch, CommunityResourcePack, CommunityTechTree, CommunityTerrainTexturePack, CustomBarnKit, DeployableEngines, DynamicBatteryStorage, EnvironmentalVisualEnhancements, EnvironmentalVisualEnhancements-HR, FireflyAPI, Harmony2, HUDReplacer, Kopernicus, KSPCommunityFixes, KSPTextureLoader, ModularFlightIntegrator, ModuleManager, NearFutureElectrical-DecayingRTGs, NearFutureProps, NearFuturePropulsion-XenonHETs, NearFutureSpacecraft-OrbitalLFOEngines, OuterPlanetsMod, PlanetShine, PlanetShine-Config-Default, ReStock, Scatterer, Scatterer-config, Scatterer-sunflare, SmokeScreen, Waterfall]
+  core: [B9PartSwitch, CommunityResourcePack, CommunityTechTree, CommunityTerrainTexturePack, CustomBarnKit, DeployableEngines, DynamicBatteryStorage, EnvironmentalVisualEnhancements, EnvironmentalVisualEnhancements-HR, FireflyAPI, Harmony2, HUDReplacer, KerbalKonstructs, Kopernicus, KSPCommunityFixes, KSPTextureLoader, ModularFlightIntegrator, ModuleManager, NearFutureElectrical-DecayingRTGs, NearFutureProps, NearFuturePropulsion-XenonHETs, NearFutureSpacecraft-OrbitalLFOEngines, OuterPlanetsMod, PlanetShine, PlanetShine-Config-Default, ReStock, Scatterer, Scatterer-config, Scatterer-sunflare, SmokeScreen, Waterfall]
   parts: [CommNetAntennasExtension, HeatControl, KerbalActuators, MarkIVSpaceplaneSystem, NearFutureAeronautics, NearFutureConstruction, NearFutureElectrical, NearFutureElectrical-Core, NearFutureExploration, NearFutureLaunchVehicles, NearFuturePropulsion, NearFutureSolar, NearFutureSolar-Core, NearFutureSpacecraft, RemoteTechRedevAntennas, ReStockPlus, SCANsat, SystemHeat]
-  visual: [AvalanchePlumes, Deferred, Firefly, KSPBurst, KSPBurst-Lite, OuterParallax, OuterParallax-OPM, ParallaxContinued, ParallaxContinued-Planet-Textures, ParallaxContinued-Scatter-Textures, ParallaxContinued-Terrain-Textures, RestockWaterfallExpansion, Shabby, TUFX, VertexHeightOblateAdvanced, VertexMitchellNetravaliHeightMap]
-  qol: [BetterTimeWarpCont, ClickThroughBlocker, CommNetAntennasInfo, DraggableNavball, EasyVesselSwitch, KerbalEngineerRedux, KerbalJointReinforcementContinued, LunaMultiplayer, PreciseNode, ToolbarController, TransferWindowPlanner, ZTheme]
+  visual: [AvalanchePlumes, Deferred, DistantObject, DistantObject-default, Firefly, KSCEnhanced, KSCExtended, KSPBurst, KSPBurst-Lite, OrdinaryKonstruction, OuterParallax, OuterParallax-OPM, ParallaxContinued, ParallaxContinued-Planet-Textures, ParallaxContinued-Scatter-Textures, ParallaxContinued-Terrain-Textures, RestockWaterfallExpansion, Shabby, StockalikeStructures, TUFX, TundraSpaceCenter, VertexHeightOblateAdvanced, VertexMitchellNetravaliHeightMap]
+  qol: [BetterTimeWarpCont, ClickThroughBlocker, CommNetAntennasInfo, CustomPreLaunchChecks, DraggableNavball, EasyVesselSwitch, KerbalEngineerRedux, KerbalJointReinforcementContinued, LunaMultiplayer, PreciseNode, ToolbarController, TransferWindowPlanner, ZTheme]
 pins:
   AvalanchePlumes: v1.0.5.1
   B9PartSwitch: v2.21.0.4
@@ -22,8 +22,11 @@ pins:
   CommunityTechTree: "1:3.4.5"
   CommunityTerrainTexturePack: "1:1.0.5"
   CustomBarnKit: 1.1.22.0
+  CustomPreLaunchChecks: "1.8.1.1"
   Deferred: "1.3.5.0"
   DeployableEngines: 1.3.1
+  DistantObject: "v2.2.1.8"
+  DistantObject-default: "v2.2.1.8"
   DraggableNavball: v1.0.1.5
   DynamicBatteryStorage: "2:2.3.7.0"
   EasyVesselSwitch: "2.3"
@@ -37,7 +40,10 @@ pins:
   KerbalActuators: v1.9.0
   KerbalEngineerRedux: 1.1.9.5
   KerbalJointReinforcementContinued: "v3.8.7.0"
+  KerbalKonstructs: "v1.12.3.0"
   Kopernicus: "2:release-1.12.1-247"
+  KSCEnhanced: "2.0.0"
+  KSCExtended: "3.0.3"
   KSPBurst: "v1.7.4.11"
   KSPBurst-Lite: "v1.7.4.11"
   KSPCommunityFixes: "1:1.41.1"
@@ -60,6 +66,7 @@ pins:
   NearFutureSolar-Core: 1.3.3
   NearFutureSpacecraft: 1.4.6
   NearFutureSpacecraft-OrbitalLFOEngines: 1.4.6
+  OrdinaryKonstruction: "1:0.1.4c"
   OuterParallax: "0.7.0"
   OuterParallax-OPM: "0.7.0"
   OuterPlanetsMod: "2:2.2.12"
@@ -80,10 +87,12 @@ pins:
   Scatterer-sunflare: "3:v0.0878"
   Shabby: "0.4.2"
   SmokeScreen: 2.8.14.0
+  StockalikeStructures: "0.0.12"
   SystemHeat: 0.9.1
   ToolbarController: "1:0.1.9.14"
   TransferWindowPlanner: v1.8.0.0
   TUFX: "1.1.1"
+  TundraSpaceCenter: "2.0.2"
   VertexHeightOblateAdvanced: "1.1.4"
   VertexMitchellNetravaliHeightMap: "0.3"
   Waterfall: 0.11.0

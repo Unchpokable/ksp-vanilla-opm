@@ -2,7 +2,7 @@
     "spec_version":  "v1.6",
     "identifier":  "Vanilla-OPM",
     "name":  "Vanilla+ OPM",
-    "abstract":  "76-mod KSP 1.12.5 pack: Near Future, ReStock+, OPM, Parallax Continued, Waterfall, KER, Luna Multiplayer",
+    "abstract":  "85-mod KSP 1.12.5 pack: Near Future, ReStock+, OPM, Parallax Continued, Waterfall, KER, Luna Multiplayer",
     "author":  "Unchpokable",
     "version":  "2026.11.12",
     "ksp_version_min":  "1.12",
@@ -51,12 +51,24 @@
                         "version":  "1.1.22.0"
                     },
                     {
+                        "name":  "CustomPreLaunchChecks",
+                        "version":  "1.8.1.1"
+                    },
+                    {
                         "name":  "Deferred",
                         "version":  "1.3.5.0"
                     },
                     {
                         "name":  "DeployableEngines",
                         "version":  "1.3.1"
+                    },
+                    {
+                        "name":  "DistantObject",
+                        "version":  "v2.2.1.8"
+                    },
+                    {
+                        "name":  "DistantObject-default",
+                        "version":  "v2.2.1.8"
                     },
                     {
                         "name":  "DraggableNavball",
@@ -111,8 +123,20 @@
                         "version":  "v3.8.7.0"
                     },
                     {
+                        "name":  "KerbalKonstructs",
+                        "version":  "v1.12.3.0"
+                    },
+                    {
                         "name":  "Kopernicus",
                         "version":  "2:release-1.12.1-247"
+                    },
+                    {
+                        "name":  "KSCEnhanced",
+                        "version":  "2.0.0"
+                    },
+                    {
+                        "name":  "KSCExtended",
+                        "version":  "3.0.3"
                     },
                     {
                         "name":  "KSPBurst",
@@ -203,6 +227,10 @@
                         "version":  "1.4.6"
                     },
                     {
+                        "name":  "OrdinaryKonstruction",
+                        "version":  "1:0.1.4c"
+                    },
+                    {
                         "name":  "OuterParallax",
                         "version":  "0.7.0"
                     },
@@ -283,6 +311,10 @@
                         "version":  "2.8.14.0"
                     },
                     {
+                        "name":  "StockalikeStructures",
+                        "version":  "0.0.12"
+                    },
+                    {
                         "name":  "SystemHeat",
                         "version":  "0.9.1"
                     },
@@ -297,6 +329,10 @@
                     {
                         "name":  "TUFX",
                         "version":  "1.1.1"
+                    },
+                    {
+                        "name":  "TundraSpaceCenter",
+                        "version":  "2.0.2"
                     },
                     {
                         "name":  "VertexHeightOblateAdvanced",

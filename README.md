@@ -1,8 +1,9 @@
 # Vanilla+ OPM — сборка модов для KSP 1.12.5
 
-Готовый модпак из **75 модулей**: Near Future (Nertea), ReStock + ReStock+, Outer Planets Mod,
-Parallax Continued, Waterfall, Firefly, Deferred + TUFX, KER, Transfer Window Planner,
-Precise Node, SCANsat, System Heat, Luna Multiplayer.
+Готовый модпак из **85 модулей**: Near Future (Nertea), ReStock + ReStock+, Outer Planets Mod,
+Parallax Continued, Waterfall, Firefly, Deferred + TUFX, Distant Object Enhancement,
+KSC Extended / Enhanced, KER, Transfer Window Planner, Precise Node, SCANsat, System Heat,
+Luna Multiplayer.
 
 Версия игры: **KSP 1.12.5** (Steam или GOG). DLC не требуются.
 
@@ -31,7 +32,7 @@ Precise Node, SCANsat, System Heat, Luna Multiplayer.
 2. Скачай из этого репозитория файл **`Vanilla-OPM.ckan`**.
 3. В CKAN: **File → Install from .ckan…** → выбери скачанный файл.
 4. CKAN покажет список из 75 модулей с точными версиями — жми **Apply changes**.
-   Загрузка ~4.5 ГБ, на диске ~7.8 ГБ. Долго — это нормально.
+   Загрузка ~4.6 ГБ, на диске ~8 ГБ. Долго — это нормально.
 
 ### Вариант 2 — из командной строки
 
@@ -85,6 +86,8 @@ cd "C:\путь\до\папки\с\ckan.exe"
 2. **Direct connect** → введи адрес. Либо найди сервер `Vanilla+ OPM` в списке.
 3. Версия модов должна совпадать с этой сборкой: сервер сверяет список деталей и
    отклонит корабль с чужими деталями (сообщение `Contains the following banned parts`).
+4. **KerbalKonstructs / KSC Extended** — локальные статики: сервер их не знает. Спавн
+   на площадках KSC Extended в мультиплеере не проверялся, начинайте с обычного KSC.
 
 Сервер не требует Parallax — он его не рендерит. Достаточно, чтобы он был у клиентов.
 
@@ -96,8 +99,8 @@ cd "C:\путь\до\папки\с\ckan.exe"
 |---|---|
 | ядро | Kopernicus, ModuleManager, Harmony2, B9PartSwitch, CRP, CTT, CTTP, CustomBarnKit, DeployableEngines, DynamicBatteryStorage, KSPTextureLoader, ModularFlightIntegrator, Waterfall, EVE + HR, Scatterer + config, PlanetShine, ReStock, KSPCommunityFixes, HUDReplacer, SmokeScreen, FireflyAPI |
 | детали | Near Future: Aeronautics, Construction, Electrical (+Core, +DecayingRTGs), Exploration, Launch Vehicles, Propulsion (+XenonHETs), Solar (+Core), Spacecraft (+OrbitalLFOEngines), Props; HeatControl, KerbalActuators, Mark IV, ReStockPlus, SCANsat, SystemHeat, CommNetAntennasExtension + RemoteTechRedevAntennas |
-| визуал | ParallaxContinued + три текстурных пака, KSPBurst (+Lite), OuterParallax (+OPM), Deferred, Shabby, TUFX, Firefly, RestockWaterfallExpansion, AvalanchePlumes |
-| QoL | KerbalEngineerRedux, TransferWindowPlanner, PreciseNode, EasyVesselSwitch, CommNetAntennasInfo, BetterTimeWarpCont, DraggableNavball, ZTheme, LunaMultiplayer, KerbalJointReinforcementContinued, ClickThroughBlocker, ToolbarController |
+| визуал | ParallaxContinued + три текстурных пака, KSPBurst (+Lite), OuterParallax (+OPM), Deferred, Shabby, TUFX, Firefly, RestockWaterfallExpansion, AvalanchePlumes, DistantObject (+default), KSCEnhanced, KSCExtended, TundraSpaceCenter, StockalikeStructures, OrdinaryKonstruction |
+| QoL | KerbalEngineerRedux, TransferWindowPlanner, PreciseNode, EasyVesselSwitch, CommNetAntennasInfo, BetterTimeWarpCont, DraggableNavball, ZTheme, LunaMultiplayer, KerbalJointReinforcementContinued, CustomPreLaunchChecks, ClickThroughBlocker, ToolbarController |
 
 Точный список с версиями — в `Vanilla-OPM.ckan` (это и есть источник истины).
 Человекочитаемая версия — в `docs/manifest.yaml`.
