@@ -2,9 +2,9 @@
     "spec_version":  "v1.6",
     "identifier":  "Vanilla-OPM",
     "name":  "Vanilla+ OPM",
-    "abstract":  "75-mod KSP 1.12.5 pack: Near Future, ReStock+, OPM, Parallax Continued, Waterfall, KER, Luna Multiplayer",
+    "abstract":  "76-mod KSP 1.12.5 pack: Near Future, ReStock+, OPM, Parallax Continued, Waterfall, KER, Luna Multiplayer",
     "author":  "Unchpokable",
-    "version":  "2026.11.11",
+    "version":  "2026.11.12",
     "ksp_version_min":  "1.12",
     "ksp_version_max":  "1.12.99",
     "license":  "MIT",
@@ -105,6 +105,10 @@
                     {
                         "name":  "KerbalEngineerRedux",
                         "version":  "1.1.9.5"
+                    },
+                    {
+                        "name":  "KerbalJointReinforcementContinued",
+                        "version":  "v3.8.7.0"
                     },
                     {
                         "name":  "Kopernicus",

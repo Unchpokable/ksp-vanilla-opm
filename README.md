@@ -44,12 +44,18 @@ cd "C:\путь\до\папки\с\ckan.exe"
 
 5. Скопируй папку **`patches/zzz_VanillaOPM_Fixes`** целиком в
    `Kerbal Space Program\GameData\` — так, чтобы получилось
-   `GameData\zzz_VanillaOPM_Fixes\NFAIntakeShock.cfg`.
+   `GameData\zzz_VanillaOPM_Fixes\` с двумя файлами внутри.
 
-   Этот патч — наш, CKAN про него не знает. Он чинит воздухозаборник
-   `nfa-intake-largeshock` из Near Future Aeronautics: в моде осталась ссылка на
-   несуществующий `AnimatedIntake`, из-за чего деталь теряла анимацию и писала
-   ошибку в лог. Патч заменяет мёртвый модуль на стоковый `FXModuleAnimateThrottle`.
+   Это наши патчи, CKAN про них не знает:
+
+   - `NFAIntakeShock.cfg` — чинит воздухозаборник `nfa-intake-largeshock` из Near Future
+     Aeronautics: в моде осталась ссылка на несуществующий `AnimatedIntake`, из-за чего
+     деталь теряла анимацию и писала ошибку в лог. Патч заменяет мёртвый модуль на
+     стоковый `FXModuleAnimateThrottle`.
+   - `CTTEmptyNodes.cfg` — косметика дерева R&D: скрывает 43 пустых узла Community Tech
+     Tree, под которыми нет ни одной детали (CTT добавляет их под модпаки, которых в этой
+     сборке нет — KSPIE, USI-MKS, Kerbalism). Если мод когда-нибудь положит туда детали,
+     узел появится сам. Не нравится — просто удали файл.
 
 6. Запусти игру. **Первый запуск будет долгим** (5–10 минут): KSPBurst компилирует
    шейдерные джобы, ModuleManager пересобирает кэш на 7.8 ГБ.
@@ -91,7 +97,7 @@ cd "C:\путь\до\папки\с\ckan.exe"
 | ядро | Kopernicus, ModuleManager, Harmony2, B9PartSwitch, CRP, CTT, CTTP, CustomBarnKit, DeployableEngines, DynamicBatteryStorage, KSPTextureLoader, ModularFlightIntegrator, Waterfall, EVE + HR, Scatterer + config, PlanetShine, ReStock, KSPCommunityFixes, HUDReplacer, SmokeScreen, FireflyAPI |
 | детали | Near Future: Aeronautics, Construction, Electrical (+Core, +DecayingRTGs), Exploration, Launch Vehicles, Propulsion (+XenonHETs), Solar (+Core), Spacecraft (+OrbitalLFOEngines), Props; HeatControl, KerbalActuators, Mark IV, ReStockPlus, SCANsat, SystemHeat, CommNetAntennasExtension + RemoteTechRedevAntennas |
 | визуал | ParallaxContinued + три текстурных пака, KSPBurst (+Lite), OuterParallax (+OPM), Deferred, Shabby, TUFX, Firefly, RestockWaterfallExpansion, AvalanchePlumes |
-| QoL | KerbalEngineerRedux, TransferWindowPlanner, PreciseNode, EasyVesselSwitch, CommNetAntennasInfo, BetterTimeWarpCont, DraggableNavball, ZTheme, LunaMultiplayer, ClickThroughBlocker, ToolbarController |
+| QoL | KerbalEngineerRedux, TransferWindowPlanner, PreciseNode, EasyVesselSwitch, CommNetAntennasInfo, BetterTimeWarpCont, DraggableNavball, ZTheme, LunaMultiplayer, KerbalJointReinforcementContinued, ClickThroughBlocker, ToolbarController |
 
 Точный список с версиями — в `Vanilla-OPM.ckan` (это и есть источник истины).
 Человекочитаемая версия — в `docs/manifest.yaml`.
@@ -107,6 +113,7 @@ cd "C:\путь\до\папки\с\ckan.exe"
 | CKAN пишет «files not owned by CKAN» | В `GameData` остались файлы от ручной установки. Убери их или поставь игру заново |
 | Игра падает на загрузке, в логе `KSPBurst`/`Burst` | Удали `GameData/000_KSPBurst` и поставь KSPBurst заново через CKAN |
 | Пустой/чёрный рельеф, планеты без деталей | Terrain Detail не `High`, либо не установился один из `Parallax_Stock*Textures` |
+| Половина дерева R&D — пустые коробки | Это норма для CTT: узлы рассчитаны на KSPIE/USI/Kerbalism, которых в сборке нет. Наш `CTTEmptyNodes.cfg` их скрывает |
 | В логе `Cannot resolve assembly: System.Runtime.CompilerServices.Unsafe` | Безобидно: KSPBurst и LunaMultiplayer везут разные версии одной шим-библиотеки, грузится более новая |
 
 Лог игры: `Kerbal Space Program\KSP.log`.

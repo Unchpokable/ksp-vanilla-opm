@@ -10,7 +10,7 @@ groups:
   core: [B9PartSwitch, CommunityResourcePack, CommunityTechTree, CommunityTerrainTexturePack, CustomBarnKit, DeployableEngines, DynamicBatteryStorage, EnvironmentalVisualEnhancements, EnvironmentalVisualEnhancements-HR, FireflyAPI, Harmony2, HUDReplacer, Kopernicus, KSPCommunityFixes, KSPTextureLoader, ModularFlightIntegrator, ModuleManager, NearFutureElectrical-DecayingRTGs, NearFutureProps, NearFuturePropulsion-XenonHETs, NearFutureSpacecraft-OrbitalLFOEngines, OuterPlanetsMod, PlanetShine, PlanetShine-Config-Default, ReStock, Scatterer, Scatterer-config, Scatterer-sunflare, SmokeScreen, Waterfall]
   parts: [CommNetAntennasExtension, HeatControl, KerbalActuators, MarkIVSpaceplaneSystem, NearFutureAeronautics, NearFutureConstruction, NearFutureElectrical, NearFutureElectrical-Core, NearFutureExploration, NearFutureLaunchVehicles, NearFuturePropulsion, NearFutureSolar, NearFutureSolar-Core, NearFutureSpacecraft, RemoteTechRedevAntennas, ReStockPlus, SCANsat, SystemHeat]
   visual: [AvalanchePlumes, Deferred, Firefly, KSPBurst, KSPBurst-Lite, OuterParallax, OuterParallax-OPM, ParallaxContinued, ParallaxContinued-Planet-Textures, ParallaxContinued-Scatter-Textures, ParallaxContinued-Terrain-Textures, RestockWaterfallExpansion, Shabby, TUFX, VertexHeightOblateAdvanced, VertexMitchellNetravaliHeightMap]
-  qol: [BetterTimeWarpCont, ClickThroughBlocker, CommNetAntennasInfo, DraggableNavball, EasyVesselSwitch, KerbalEngineerRedux, LunaMultiplayer, PreciseNode, ToolbarController, TransferWindowPlanner, ZTheme]
+  qol: [BetterTimeWarpCont, ClickThroughBlocker, CommNetAntennasInfo, DraggableNavball, EasyVesselSwitch, KerbalEngineerRedux, KerbalJointReinforcementContinued, LunaMultiplayer, PreciseNode, ToolbarController, TransferWindowPlanner, ZTheme]
 pins:
   AvalanchePlumes: v1.0.5.1
   B9PartSwitch: v2.21.0.4
@@ -36,6 +36,7 @@ pins:
   HUDReplacer: 1.4.2
   KerbalActuators: v1.9.0
   KerbalEngineerRedux: 1.1.9.5
+  KerbalJointReinforcementContinued: "v3.8.7.0"
   Kopernicus: "2:release-1.12.1-247"
   KSPBurst: "v1.7.4.11"
   KSPBurst-Lite: "v1.7.4.11"
@@ -89,6 +90,6 @@ pins:
   ZTheme: v1.2.2
 manual:
   - folder: zzz_VanillaOPM_Fixes
-    bytes: 1625
-    files: 1
+    bytes: 5837
+    files: 2
     version: null
