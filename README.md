@@ -121,7 +121,7 @@ cd "C:\путь\до\папки\с\ckan.exe"
 | Игра падает на загрузке, в логе `KSPBurst`/`Burst` | Удали `GameData/000_KSPBurst` и поставь KSPBurst заново через CKAN |
 | Пустой/чёрный рельеф, планеты без деталей | Terrain Detail не `High`, либо не установился один из `Parallax_Stock*Textures` |
 | Половина дерева R&D — пустые коробки | Это норма для CTT: узлы рассчитаны на KSPIE/USI/Kerbalism, которых в сборке нет. Наш `CTTEmptyNodes.cfg` их скрывает |
-| Сервер банит детали `Size1p5.*`, `kv1Pod`, роботов | Разный набор DLC у игроков. Нужен Making History у всех, Breaking Ground — для паритета |
+| Сервер банит детали `Size1p5.*`, `kv1Pod`, роботов | Разный набор DLC у игроков. `RequiredExpansions` требует `MakingHistory` + `Serenity` у всех |
 | В логе `Cannot resolve assembly: System.Runtime.CompilerServices.Unsafe` | Безобидно: KSPBurst и LunaMultiplayer везут разные версии одной шим-библиотеки, грузится более новая |
 
 Лог игры: `Kerbal Space Program\KSP.log`.
