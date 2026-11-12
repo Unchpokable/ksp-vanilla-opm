@@ -4,8 +4,8 @@ spec: 1
 name: "Vanilla+ OPM"
 ksp: 1.12.5
 dlc:
-  making_history: false
-  breaking_ground: false
+  making_history: true
+  breaking_ground: true
 groups:
   core: [B9PartSwitch, CommunityResourcePack, CommunityTechTree, CommunityTerrainTexturePack, CustomBarnKit, DeployableEngines, DynamicBatteryStorage, EnvironmentalVisualEnhancements, EnvironmentalVisualEnhancements-HR, FireflyAPI, Harmony2, HUDReplacer, KerbalKonstructs, Kopernicus, KSPCommunityFixes, KSPTextureLoader, ModularFlightIntegrator, ModuleManager, NearFutureElectrical-DecayingRTGs, NearFutureProps, NearFuturePropulsion-XenonHETs, NearFutureSpacecraft-OrbitalLFOEngines, OuterPlanetsMod, PlanetShine, PlanetShine-Config-Default, ReStock, Scatterer, Scatterer-config, Scatterer-sunflare, SmokeScreen, Waterfall]
   parts: [CommNetAntennasExtension, HeatControl, KerbalActuators, MarkIVSpaceplaneSystem, NearFutureAeronautics, NearFutureConstruction, NearFutureElectrical, NearFutureElectrical-Core, NearFutureExploration, NearFutureLaunchVehicles, NearFuturePropulsion, NearFutureSolar, NearFutureSolar-Core, NearFutureSpacecraft, RemoteTechRedevAntennas, ReStockPlus, SCANsat, SystemHeat]

@@ -16,6 +16,10 @@ Luna Multiplayer.
 ## Что нужно
 
 1. **Kerbal Space Program 1.12.5** — чистая установка, без старых модов в `GameData`.
+   Нужен DLC **Making History** — сервер проверяет его наличие при подключении
+   (`RequiredExpansions`), и часть деталей сборки (диапазон 1.875 м) из него.
+   **Breaking Ground** формально не обязателен, но без него роботизированные детали
+   с другой стороны не отрисуются — для игры вдвоём лучше иметь оба.
 2. **CKAN** — менеджер модов: <https://github.com/KSP-CKAN/CKAN/releases>
    Возьми `ckan.exe` и положи рядом с `KSP_x64.exe` (или в любую папку — главное знать путь).
 
@@ -117,6 +121,7 @@ cd "C:\путь\до\папки\с\ckan.exe"
 | Игра падает на загрузке, в логе `KSPBurst`/`Burst` | Удали `GameData/000_KSPBurst` и поставь KSPBurst заново через CKAN |
 | Пустой/чёрный рельеф, планеты без деталей | Terrain Detail не `High`, либо не установился один из `Parallax_Stock*Textures` |
 | Половина дерева R&D — пустые коробки | Это норма для CTT: узлы рассчитаны на KSPIE/USI/Kerbalism, которых в сборке нет. Наш `CTTEmptyNodes.cfg` их скрывает |
+| Сервер банит детали `Size1p5.*`, `kv1Pod`, роботов | Разный набор DLC у игроков. Нужен Making History у всех, Breaking Ground — для паритета |
 | В логе `Cannot resolve assembly: System.Runtime.CompilerServices.Unsafe` | Безобидно: KSPBurst и LunaMultiplayer везут разные версии одной шим-библиотеки, грузится более новая |
 
 Лог игры: `Kerbal Space Program\KSP.log`.
